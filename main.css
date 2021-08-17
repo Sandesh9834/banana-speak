@@ -7,6 +7,7 @@ textarea
       margin-top: 2rem;
       font-size: large;
       font-family: inherit;
+      padding: 1rem;
 }
 
 .txtoutput
@@ -42,6 +43,8 @@ div.justified
 {
       display: flex;
       justify-content: center;
+      width: 100%;
+      top: 0;
 }
 
 footer
@@ -51,7 +54,6 @@ footer
       bottom: 0;
       width: 100%;
       left: 0;
-      padding: 1rem;
       background-color: rgb(248, 204, 8);
       text-align: center;
       
@@ -61,8 +63,6 @@ nav
 {
       background-color: rgb(248, 204, 8);
       text-align: center;
-      left: 0;
       width: 100%;
       display: block;
-      top: 0;
 }
