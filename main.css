@@ -1,68 +1,70 @@
-textarea
-{
-      box-sizing: border-box;
-      display: block;
-      width: 50%;
-      min-height: 20vh;
-      margin-top: 2rem;
-      font-size: large;
-      font-family: inherit;
-      padding: 1rem;
+/* @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap'); */
+
+* {
+    box-sizing: border-box;
 }
 
-.txtoutput
-{
-      border: 2px solid black;
-      height: 15vh;
-      width: 47%;
-      margin: 1rem;
-      padding: 1rem;
-      background-color: white;
-      position: absolute;
-      left: 24%;
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break:600px
 }
 
-.button
-{
-      background-color: rgb(248, 204, 8);
-      border: none;
-      margin: 1rem 0rem;
-      padding: 1rem 2rem;
-      cursor: pointer;
-      font-size: large
+body {
+    margin: 0;
+    color: #333333;
 }
 
-.center 
-{
-      display: flex;
-      justify-content: center;
-      align-items: center;
+nav {
+    background-color: var(--primary);
+    text-align: center;
 }
 
-div.justified 
-{
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      top: 0;
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
 }
 
-footer
-{
-      position: fixed;
-      font-size: large;
-      bottom: 0;
-      width: 100%;
-      left: 0;
-      background-color: rgb(248, 204, 8);
-      text-align: center;
-      
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: large;
+    font-family: inherit;
 }
 
-nav 
-{
-      background-color: rgb(248, 204, 8);
-      text-align: center;
-      width: 100%;
-      display: block;
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: large;
+}
+
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    border: 1px solid var(--black);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
 }
